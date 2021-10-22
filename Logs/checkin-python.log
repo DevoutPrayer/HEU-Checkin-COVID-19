@@ -1575,3 +1575,18 @@ requests.exceptions.ConnectionError: ('Connection aborted.', ConnectionResetErro
 [info] Task Finished at 2021-10-22 08:28:54 Friday
 ============================
 
+============================
+[debug] Begin to login ...
+
+[error] :.:.:.:.: Except return :.:.:.:.:
+[error] Python Error: 
+ Traceback (most recent call last):
+  File "Actions/checkin.py", line 81, in <module>
+    csrfToken = csrfToken.pop().attrib["content"]
+IndexError: pop from empty list
+
+:.:.:.:.: Finally :.:.:.:.:
+[info] Notification sended at 2021-10-23 07:06:56 Saturday
+[info] Task Finished at 2021-10-23 07:06:56 Saturday
+============================
+
